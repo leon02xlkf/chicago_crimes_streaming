@@ -1,0 +1,11 @@
+[project]
+name = "chicago-crimes-streaming"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "kafka-python>=2.3.0",
+    "pandas>=3.0.1",
+    "pyarrow>=23.0.1",
+]
